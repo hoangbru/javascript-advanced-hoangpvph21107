@@ -4,19 +4,19 @@ const game = {
     team1: {
         name: "Bayern Munich",
         playersTeam1: {
-            thuMon: "Linh",
-            tienVe: ["Hoàng", "Vụ", "Oanh"],
-            hauVe: ["Ninh", "Hoàn", "Vu", "Anh"],
-            tienDao: ["Mi", "Phương", "Loan"]
+            thuMon: "Neuer",
+            tienVe: ["Kimmich", "Musiala", "Lahm"],
+            hauVe: ["Alaba", "VanHau", "Hummels", "Davies"],
+            tienDao: ["Muller", "Robben", "Lewan"]
         }
     },
     team2: {
         name: "Real Madrid",
         playersTeam2: {
-            thuMon: "LinhVu",
-            tienVe: ["HoàngNgu", "VụOc", "OanhGa"],
-            hauVe: ["NinhNgu", "HoànVu", "VuTruong", "AnhZai"],
-            tienDao: ["MiFuong", "PhươngTran", "LoanLee"]
+            thuMon: "Navas",
+            tienVe: ["Modric", "Kroos", "Casemiro"],
+            hauVe: ["Ramos", "Pepe", "Marcelo", "Rudiger"],
+            tienDao: ["CR7", "Mbappe", "Benzema"]
         }
     },
     odds: {
@@ -26,13 +26,13 @@ const game = {
     },
     goals: {
         team1: [
-            { player: "Hoàng", time: 20 },
-            { player: "Phương", time: 75 },
+            { player: "Lewan", time: 20 },
+            { player: "Muller", time: 75 },
         ],
         team2: [
-            { player: "NinhNgu", time: 50 },
-            { player: "AnhZai", time: 80 },
-            { player: "PhươngTran", time: 90 }
+            { player: "CR7", time: 50 },
+            { player: "CR7", time: 80 },
+            { player: "Mbappe", time: 90 }
         ]
     }
 };
